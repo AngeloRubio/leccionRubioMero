@@ -1,0 +1,85 @@
+/* Estilos generales */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  /* Estilos específicos para las tablas */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para los botones de eliminar */
+  button.eliminar {
+    padding: 5px 10px;
+    background-color: #dc3545;
+  }
+  
+  /* Estilos adicionales para ajustar el espacio */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  
+  .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+div{
+    width: 30%;
+    margin: 0 auto;
+}
+  
