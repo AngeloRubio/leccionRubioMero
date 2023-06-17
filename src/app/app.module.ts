@@ -8,6 +8,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { Vista1Component } from './components/vista1/vista1.component';
 import { Vista2Component } from './components/vista2/vista2.component';
 import { Vista3Component } from './components/vista3/vista3.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { Vista3Component } from './components/vista3/vista3.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
