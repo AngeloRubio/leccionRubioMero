@@ -1,4 +1,19 @@
 .inline-nav li {
-    display: inline;
-    margin-right: 10px;  
-  }
+  display: inline;
+  margin-right: 10px;
+}
+
+.nvbar {
+  background-color: #060606;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+

@@ -1,14 +1,27 @@
 <!-- As a heading -->
-<nav class="navbar bg-dark" data-bs-theme="dark">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Aplicacion de la Leccion 2023</span>
-      <button class="btn btn-primary position-relative ms-3">
-        Inbox
-        <span class="position-absolute top-0 end-3 translate-middle badge rounded-pill bg-danger">
-          99+
-          <span class="visually-hidden">nuevas notificaciones</span>
-        </span>
-      </button>
-    </div>
-  </nav>
-  
+<nav class="navbar bg-dark, nvbar" data-bs-theme="dark">
+  <div class="container-fluid">
+    <ul class="inline-nav">
+      <li>
+        <a class="btn text-white" routerLink="/vista1">Login</a>
+      </li>
+      <li>
+        <a class="btn text-white" routerLink="/vista2">Lista</a>
+      </li>
+      <li>
+        <a class="btn text-white" routerLink="/vista3">Datos</a>
+      </li>
+    </ul>
+
+    <span class="navbar-brand mb-0 h1">Aplicacion de la Leccion 2023</span>
+    <button class="btn btn-primary position-relative ms-3">
+      Inbox
+      <span
+        class="position-absolute top-0 end-3 translate-middle badge rounded-pill bg-danger"
+      >
+        99+
+        <span class="visually-hidden">nuevas notificaciones</span>
+      </span>
+    </button>
+  </div>
+</nav>

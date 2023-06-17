@@ -23,7 +23,12 @@
 
 <div>
   <label for="fecha">Fecha:</label>
-  <input type="date" id="fecha" name="fecha" [(ngModel)]="estudiante.fechaNacimiento" />
+  <input
+    type="date"
+    id="fecha"
+    name="fecha"
+    [(ngModel)]="estudiante.fechaNacimiento"
+  />
 </div>
 
 <button (click)="agregarEstudiante(estudiante)">Agregar</button>
@@ -48,7 +53,7 @@
       <td>{{ est.nombre }}</td>
       <td>{{ est.apellido }}</td>
       <td>{{ est.asignatura }}</td>
-      <td>{{ est.fechaNacimiento | date:'dd/MM/yyyy'}}</td>
+      <td>{{ est.fechaNacimiento | date : "dd/MM/yyyy" }}</td>
       <td>
         <button (click)="quitarEstudiante(est)">Eliminar</button>
       </td>
@@ -76,7 +81,7 @@
       <td>{{ est.nombre }}</td>
       <td>{{ est.apellido }}</td>
       <td>{{ est.asignatura }}</td>
-      <td>{{ est.fechaNacimiento | date:'dd/MM/yyyy' }}</td>
+      <td>{{ est.fechaNacimiento | date : "dd/MM/yyyy" }}</td>
     </tr>
   </tbody>
 </table>
